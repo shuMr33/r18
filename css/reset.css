@@ -1,0 +1,227 @@
+/*æ¸…é™¤å†…å¤–è¾¹è·*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+/*è®¾ç½®é»˜è®¤å­—ä½“*/
+:focus {
+    outline: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+/*é‡ç½®åˆ—è¡¨*/
+fieldset, img {
+    border: 0 none;
+    vertical-align: top;
+    height: 54px;
+}
+/*é‡ç½®å›¾ç‰‡å…ƒç´ */
+address, caption, cite, code, dfn, em, i, th, var, optgroup {
+    font-style: normal;
+    font-weight: normal;
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+code, kbd, samp, tt {
+    font-size: 100%;
+}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {
+    *font-size: 100%;
+    outline: none;
+}
+/*
+form label {
+    cursor: pointer;
+}
+*/
+
+textarea {
+    resize: none;
+}
+
+table.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+table.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+table.tftable tr {background-color:#ffffff26;}
+table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+
+/*é‡ç½®è¡¨æ ¼*/
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.special, .special a {
+    color: #1eb37b;
+}
+
+a.special:hover, .special a:hover {
+    color: #1eb37b;
+    text-decoration: none;
+}
+/*--æ¸…é™¤æµ®åŠ¨
+-------------------------------------------*/
+.cf:before, .cf:after, .clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.cf:after, .clearfix:after {
+    clear: both;
+}
+
+.cf, .clearfix {
+    clear: both;
+    *zoom: 1;
+}
+/*-- å­—å·ã€é¢œè‰²ã€å¤–è¾¹è·ã€å†…è¡¥ä¸ã€å±…ä¸­ã€è¡Œé«˜ã€æ˜¾ç¤ºã€éšè—
+--------------------------------------------------------------------------*/
+.c-333 {
+    color: #333;
+}
+
+.c-666 {
+    color: #666;
+}
+
+.c-999 {
+    color: #999;
+}
+
+.c-green {
+    color: #1fb079;
+}
+
+.c-orange {
+    color: #fc714c;
+}
+
+.c-reg {
+    color: #d90106;
+}
+/* å­—å· */
+.f9 {
+    font-size: 9px;
+    -webkit-text-size-adjust: none;
+}
+
+.f12, .fb12 {
+    font-size: 12px;
+}
+
+.simsun {
+    font-family: SimSun;
+}
+
+.f14, .fb14 {
+    font-size: 14px;
+}
+
+.f16, .fb16 {
+    font-size: 16px;
+}
+
+.f18, .fb18 {
+    font-size: 18px;
+}
+
+.f20, .fb20 {
+    font-size: 20px;
+}
+
+.fb, .fb12, .fb14, .fb16, .fb18, .fb20 {
+    font-weight: 700;
+}
+/* éšè— å±…ä¸­ */
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none !important;
+}
+/*æ–‡å­—éšè—,çœç•¥å·*/
+.ti, .te {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ti {
+    text-indent: -999em;
+}
+
+.te {
+    text-overflow: ellipsis;
+}
+
+a.button {
+    position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 3em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+/*			-moz-border-radius: 8px;*/
+    border-radius: 8px;
+/*			-webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);*/
+/*			-moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);*/
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: auto;
+    width: 200px;
+    text-align: center;
+/*			-webkit-transition: all .1s ease;*/
+/*			-moz-transition: all .1s ease;*/
+/*			-ms-transition: all .1s ease;*/
+/*			-o-transition: all .1s ease;*/
+    transition: all .1s ease;
+}
+
+a.button:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
